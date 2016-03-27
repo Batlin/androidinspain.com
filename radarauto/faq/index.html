@@ -13,8 +13,107 @@
 </head>
 <body>
 <header>
-	<h1>Sección en desarrollo...</h1>
+	<h1>Preguntas frecuentes</h1>
 </header>
+<!--
+
+	Secciones
+		La App
+		Privacidad
+		Contacto
+
+
+	Preguntas
+
+	- Cómo afecta a la batería
+	- Qué datos se guardan
+	- Versión mínima de Android
+	- Precisión de radares
+	- Base de datos
+	- Información del tráfico
+	- 
+	- Soporte
+
+-->
+
+<section class="cd-faq">
+	<ul class="cd-faq-categories">
+		<li><a class="selected" href="#app">La aplicación</a></li>
+		<li><a href="#privacy">Privacidad</a></li>
+		<li><a href="#contact">Contacto</a></li>
+	</ul> <!-- cd-faq-categories -->
+
+	<div class="cd-faq-items">
+		<ul id="app" class="cd-faq-group">
+			<li class="cd-faq-title"><h2>La aplicación</h2></li>
+			<li>
+				<a class="cd-faq-trigger" href="#0">¿Por qué Radar Auto?</a>
+				<div class="cd-faq-content">
+					<p>Radar Auto ha surgido ante la necesidad de ofrecer una aplicación de alerta de radares potente y gratuita para Android. Hace uso de las últimas APIs de Android/Google, garantizando así mayor estabilidad y menor consumo de batería. Además, con las últimas actualizaciones de Radar Auto, la app cada vez es más completa; conservando siempre la facilidad en su uso.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">¿Qué es el Modo HUD?</a>
+				<div class="cd-faq-content">
+					<p>El Modo HUD (Heads-Up Display) está diseñado para que coloques tu móvil en el salpicadero y visualices así la información en el parabrisas de tu coche. Velocidad actual, media, máxima, km recorridos, hora actual y, por supuesto, todos los avisos de radares que haya en tu ruta.</p>
+					<p>Usando este modo, también puedes colocar tu móvil en horizontal en el soporte de tu coche; desactivando el Modo HUD en Ajustes, encargado de espejar la imagen.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">¿De dónde sale la información del Tráfico?</a>
+				<div class="cd-faq-content">
+					<p>En este caso, se usa la información proporcionada a través de la API de Google Maps. Cuando se activa Radar Auto (manualmente o automáticamente), se calcula la ruta más rápida en ese momento hacia tu casa/trabajo.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">¿Dónde está mi coche?</a>
+				<div class="cd-faq-content">
+					<p>Siempre que Radar Auto se desactiva (manualmente o automáticamente), la app analiza si ésta es realmente la posición donde has dejado el coche</p>
+					<p>NOTA: Esta funcionalidad puede resultar más precisa si configuras las direcciones del trabajo y casa</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">¿Por qué se activa y desactiva automáticamente?</a>
+				<div class="cd-faq-content">
+					<p>Gracias a la información proporcionada a través de la API de Google (ActivityRecognitionApi). Esta funcionalidad viene por defecto desactivada. Actívala desde Ajustes.</p>
+					<p>NOTA: No se distingue entre transporte público o vehículo privado</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+		</ul> <!-- cd-faq-group -->
+		<ul id="privacy" class="cd-faq-group">
+			<li class="cd-faq-title"><h2>Privacidad</h2></li>
+			<li>
+				<a class="cd-faq-trigger" href="#0">¿Cómo de seguros están mis datos?</a>
+				<div class="cd-faq-content">
+					<p>¡Buenas noticias! Todo el procesado ocurre en tu móvil. No hay ninguna información almacenada en servidores propios. Por tanto, los datos de tu ubicación, direcciones, etc. están completamente seguros en tu móvil.</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+		</ul>
+		<ul id="contact" class="cd-faq-group">
+			<li class="cd-faq-title"><h2>Contacto</h2></li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">¿Cómo contacto con vosotros?</a>
+				<div class="cd-faq-content">
+					<p>¡Estaremos encantados de escuchar tus opiniones! Solo así podemos mejorar. Puedes dejar un comentario en Google Play; o escribirnos un correo a support@androidinspain.com</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+			<li>
+				<a class="cd-faq-trigger" href="#0">¡Tengo una idea!</a>
+				<div class="cd-faq-content">
+					<p>Por favor, no lo dudes. Cualquier posible mejora, escríbenos un correo a support@androidinspain.com</p>
+				</div> <!-- cd-faq-content -->
+			</li>
+
+		</ul>		
+	</div>
+</section>
+
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
